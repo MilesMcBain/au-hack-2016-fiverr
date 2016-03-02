@@ -206,7 +206,9 @@ section {
     margin-left: 6rem; } }
 
 header {
-  /*max-width: 84rem;*/ }
+  /*max-width: 84rem;*/ 
+	background: #2C3E50;
+    color: #fff;}
   header:after {
     content: "";
     display: table;
@@ -217,8 +219,8 @@ header {
       margin: 4rem auto 0; */} }
 
 .site-logo {
-  width: 10rem;
-  margin: 4rem auto 4rem;
+  /*width: 10rem;
+  margin: 4rem auto 4rem;*/
   display: block; }
 
 .date-location-wrap p {
@@ -262,13 +264,13 @@ p.byline-other {
   line-height: 1.2em;
   font-family: "brandon-grotesque",sans-serif;
   /*color: #34495e;*/
-  color: #2c3e50;
+  color: #FFFFFF;
   font-style: normal;
   /*font-variant: small-caps;*/
   font-weight: 700;
   font-size: 400%;
   width: 20rem;
-  margin: 4rem auto 2rem; }
+  margin: 0rem auto 2rem; }
   @media only screen and (min-width: 700px) {
     .byline {
       width: 100%; } }
